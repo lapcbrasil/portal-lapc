@@ -3,355 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repositório LAPC</title>
-    
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-   
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
-    <style>
-        /* Estilos gerais para o corpo da página */
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-            line-height: 1.6;
-        }
+    <title>LAPC - Liga Acadêmica PsiConecta</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=1.1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
 
-        /* Container principal para centralizar o conteúdo */
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 15px;
-        }
+    <header class="main-header">
+        <div class="header-container">
+            <button class="menu-btn" id="menu-btn" aria-label="Abrir menu">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </button>
+            <div class="logo-container">
+                <a href="index.html">
+                <img src="imagens/cabecalhoinicial.png" alt="Logo LAPC">
+                </a>
+            </div>
+        </div>
+    </header>
 
-        /* Estilo do cabeçalho */
-        header img {
-        max-width: 350px; /* Define a largura máxima da logo. Ajuste este valor como preferir! */
-        height: auto;     /* Mantém a proporção da imagem para não distorcer */
-        display: block;
-        margin: 0 auto;
-        }
+    <nav class="main-nav" id="main-nav">
+        <ul>
+            <li><a href="index.html">INÍCIO</a></li> 
+            <li>
+                <div class="submenu-toggle">A LAPC</div>
+                <ul class="submenu">
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="processo-seletivo.html">SELEÇÃO</a></li>
+                    <li><a href="publicacoes.html">REPOSITÓRIO</a></li>
+                    <li><a href="protocolo.html">PROTOCOLO</a></li>
+                    <li><a href="contato.html">CONTATOS</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 
-        header h1 {
-            margin: 0;
-            font-size: 3.2em;
-            font-family: "Bebas Neue", sans-serif;
-        }
-        
-        /* Estilo para a seção de introdução */
-        .introduction p {
-            text-align: justify; /* Alinha o texto para justificado */
-            font-size: 1em;      /* Define o tamanho da fonte (pode ajustar se quiser) */
-            color: #444;         /* Uma cor de texto escura, mas não totalmente preta */
-            margin-bottom: 10px; /* Adiciona um espaço abaixo do texto, antes da primeira seção */
-            font-family: "Noto Sans", sans-serif;
-        }
 
-        /* Estilo para o nome da liga destacado */
-        .league-name {
-            font-weight: bold;   /* Deixa o texto em negrito */
-            color: #00964d;     /* Usa a mesma cor azul do cabeçalho para criar consistência */
-        }
-        
-        
-        /* Estilo para os títulos das seções */
-        h2 {
-            border-bottom: 1px solid #313131;
-            padding-bottom: 5px;
-            color: #313131;
-            text-align: center;
-            font-size: 1.3em;
-            font-family: "Noto Sans", sans-serif;
-            margin-bottom: 20px;
+    <section class="hero-section"></section>
 
-        }
-        section + section {
-        margin-top: 60px;
-        }
-        
-        
 
-        /* Estilo para cada "post" ou registro */
-        .post {
-            background-color: #ffffff;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            transition: transform 0.2s;
-        }
-        
-        .post:hover {
-            transform: translateY(-3px); /* Efeito de elevação ao passar o mouse */
-        }
+    <main class="main-content">
+        <div class="container">
+            
+            <section class="intro-section">
+                <h2>NOSSO PROPÓSITO</h2>
+                <p>A PsiConecta nasceu do desejo de unir o saber acadêmico à vida real. Somos estudantes que acreditam que a Psicologia não deve ficar nas salas de aula, ela precisa caminhar nas ruas, escutar as vozes e transformar realidades.</br>
+                   <br>Nosso propósito é criar pontes entre teoria e prática, entre mente e sociedade. Queremos compreender o que move as pessoas e, com isso, mover o mundo junto com elas.</br>
+                   <br>Aqui, cada pesquisa é um ato de empatia, e cada encontro é uma oportunidade de fazer da Psicologia uma força de transformação social.</br>
+                   <br>A Liga Acadêmica PsiConecta - LAPC é uma organização estudantil do <strong>Centro Universitário Universo Recife.</strong></br></p>
+            </section>
+            
+            <section class="intro-logo">
+                <a href="https://universo.edu.br" target="_blank">
+                <img src="imagens/logofaculdadedes.png" alt="Universo Recife" class="university-logo">
+                </a>
+            </section>
+            
+            <section class="news-section">
+                <div class="container">
+                    <h2>Últimas Notícias</h2>
+                    
+                    <div class="news-wrapper" id="news-wrapper">
+                        <div id="news-container"></div>
+                        <div class="news-load-more-overlay" id="news-overlay">
+                        <button class="load-more-btn" id="news-load-more-btn">Ver Mais Notícias</button>
+                        </div>
+                    </div>
+            
+                </div>
+            </section>
 
-        /* Estilo do título do artigo (link para download) */
-        .post-title {
-            text-align: justify;
-            display: block;
-            font-size: 1em;
-            font-weight: bold;
-            color: #0056b3;
-            text-decoration: none;
-            font-family: "Noto Sans", sans-serif;
-            overflow-wrap: break-word;
-        }
-
-        .post-title:hover, .post-title:active {
-            color: #00964d; /* Muda a cor para vermelho ao passar o mouse ou ao clicar */
-            text-decoration: none; /* Garante que não haja sublinhado */
-        }
-        
-        /* Estilo para a descrição do post */
-        .post-description {
-            text-align: justify; /* Alinha o texto para justificado */
-            font-size: 0.9em;    /* Tamanho de fonte um pouco menor */
-            color: #313131;         /* Cor de texto um pouco mais suave */
-            margin-top: 10px;    /* Espaço acima da descrição */
-            margin-bottom: 10px; /* Espaço abaixo da descrição */
-            font-family: "Noto Sans", sans-serif;
-        }
-        
-         /* Estilos para a funcionalidade "Ler Mais" */
-        
-        /* Classe para o contêiner da descrição quando ela for longa */
-        .description-wrapper {
-            position: relative; /* Necessário para o gradiente de sobreposição */
-            overflow: hidden;   /* Esconde o texto que transborda */
-        }
-        
-        /* Classe para o texto da descrição quando estiver encolhido */
-        .post-description.collapsed {
-            max-height: 6em; /* Limita a altura a aproximadamente 3 linhas (1.5em por linha) */
-            overflow: hidden;
-            position: relative;
-            margin-bottom: 0;
-        }
-        
-        /* Efeito de gradiente para suavizar o corte do texto */
-        .post-description.collapsed::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 1.5em;
-            background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-        }
-        
-        /* Estilo para o botão "Ler mais / Ler menos" */
-        .read-more-btn {
-            display: inline-block;
-            background: none;
-            border: none;
-            color: #0056b3;
-            font-weight: bold;
-            cursor: pointer;
-            padding: 5px 0;
-            font-size: 0.9em;
-            font-family: "Noto Sans", sans-serif;
-        }
-        
-        .read-more-btn:hover, .read-more-btn:active {
-            color: #00964D; /* Muda a cor para vermelho ao passar o mouse ou ao clicar */
-            text-decoration: none; /* Garante que não haja sublinhado */
-        }
+            <section class="team-section">
+                    <h2>DIRETORIA 2025.2</h2>
+                    <p style="text-align: center; margin-top: -30px; margin-bottom: 30px; font-size: 0.9em; color: #555;">Arraste para o lado e conheça a equipe responsável por conduzir as ações, projetos e representações oficiais da liga durante o semestre.</p>
                 
-
-        /* Estilo para as informações do autor e ano */
-        .post-meta {
-            font-size: 0.9em;
-            color: #828282;
-            margin-top: 5px;
-            font-family: "Noto Sans", sans-serif;
-            text-align: justify;
-        }
-
-        /* Ícone de documento antes do título */
-        .post-title::before {
-            content: '📑'; /* Emoji de documento */
-            margin-right: 8px;
-        }
-
-        /* Rodapé simples */
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px;
-            color: #707070;
-            font-family: "Noto Sans", sans-serif;   
-        }
-        
-        /* Media Query para Responsividade em telas menores (celulares) */
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 1.5em;
-            }
-            .post-title {
-                font-size: 1.1em;
-            }
-        }
-    </style>
-    </head>
-    <body>
-    
-        <header>
-        <a href="index.html">
-            <img src="imagens/logo-cabecalho.png" alt="Logo LAPC REPOSITÓRIO">
-        </a>
-        </header>
-        
-        <section class="introduction container">
-        <p>
-            Bem-vindo(a) ao repositório oficial da 
-            <span class="league-name">Liga Acadêmica de PsiConecta - LAPC</span>. 
-            Este espaço é dedicado ao armazenamento e compartilhamento de todas as produções acadêmicas, 
-            artigos de estudo e materiais relevantes desenvolvidos pelos nossos membros. Sinta-se à vontade 
-            para explorar, baixar e utilizar nosso acervo para seus estudos e pesquisas.
-        </p>
-        </section>
-        
-      <main class="container">
-        <section id="producoes-academicas">
-            <h2>PRODUÇÕES DA LAPC</h2>
-        </section>
-        <section id="artigos-estudo">
-            <h2>MATERIAIS PARA ESTUDOS</h2>
-        </section>
+                    <div class="team-carousel">
+            
+                    <div class="member-profile-card">
+                        <img src="imagens/malu.jpg" alt="Foto da Maria Luiza">
+                        <div class="member-info-overlay">
+                            <h3>Maria Luiza</h3>
+                            <h4>Diretora Geral</h4>
+                        </div>
+                    </div>
+            
+                    <div class="member-profile-card">
+                        <img src="imagens/taci.jpg" alt="Foto da Taciana">
+                        <div class="member-info-overlay">
+                            <h3>Taciana Cristina</h3>
+                            <h4>Vice-Diretora Geral</h4>
+                        </div>
+                    </div>
+            
+                    <div class="member-profile-card">
+                        <img src="imagens/gabriel.jpg" alt="Gabriel Correia">
+                        <div class="member-info-overlay">
+                            <h3>Gabriel Correia</h3>
+                            <h4>Secretário-Geral</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="member-profile-card">
+                        <img src="imagens/gyowanna.jpg" alt="Foto Gyowanna">
+                        <div class="member-info-overlay">
+                            <h3>Gyowanna Neto</h3>
+                            <h4>Diretora Financeira</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="member-profile-card">
+                        <img src="imagens/rubens.jpg" alt="Foto Rubens">
+                        <div class="member-info-overlay">
+                            <h3>Rúbens Araujo</h3>
+                            <h4>Diretor de Pesquisa</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="member-profile-card">
+                        <img src="imagens/hugo.png" alt="Foto Hugo">
+                        <div class="member-info-overlay">
+                            <h3>Hugo Martins</h3>
+                            <h4>Diretor de Marketing</h4>
+                        </div>
+                    </div>
+                    </div>
+        </div>
+            </section>
+            </div>
     </main>
+
+        <div class="modal-overlay" id="news-modal">
+            <div class="modal-content">
+                <button class="modal-close" id="modal-close-btn">&times;</button>
+                    <h2 id="modal-title"></h2>
+                    <span id="modal-date"></span>
+                    <div id="modal-full-content"></div>
+            </div>
+        </div>
+
+    <footer>
         
-        <footer>
+        <div class="footer-social-icons">
+            <a href="https://www.instagram.com/liga.psiconecta/" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/55819XXXXXXXX" target="_blank" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="mailto:SEU_EMAIL@dominio.com" aria-label="E-mail">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+        </div>
+        
+            <p class="footer-address">
+                <strong>Centro Universitário Universo Recife</strong><br>
+                Av. Mal. Mascarenhas de Morais, 2169 - Imbiribeira, Recife - PE - CEP: 51170-000
+            </p>
             <p>
                 <strong>LIGA ACADÊMICA PSICONECTA - LAPC</strong><br>
-                TODOS OS DIREITOS RESERVADOS&copy; - 2025
+                TODOS OS DIREITOS RESERVADOS &copy; - 2025
             </p>
-        </footer>
+        
+    </footer>
 
-    <script>
-        // ==================================================================
-        // LISTA 1: Produções Acadêmicas da Liga
-        // Para adicionar um novo arquivo, apenas copie e cole um bloco {}
-        // e altere os valores. Não se esqueça da vírgula entre os blocos!
-        // ==================================================================
-        const producoesDaLiga = [
-            {
-                titulo: 'Em desenvolvimento...',
-                descricao: 'Nossa primeira pesquisa está tomando forma! Em breve, compartilharemos com vocês os caminhos, as ideias e os objetivos que estão guiando esse projeto.',
-                autor: 'Diretoria de Pesquisa LAPC',
-                ano: '2025',
-                arquivo: 'arquivo/-.pdf' // Caminho para o seu arquivo PDF
-            },
-            
-            
-                
-        
-            // ADICIONE NOVOS ITENS AQUI
-            // Exemplo:
-            // {
-            //     titulo: 'Título do Novo Trabalho',
-            //     autor: 'Seu Nome',
-            //     ano: '2025',
-            //     arquivo: 'arquivo/nome-do-seu-arquivo.pdf'
-            // },
-        ];
-
-        // ==================================================================
-        // LISTA 2: Artigos e Matérias para estudos
-        // ==================================================================
-        const artigosParaEstudo = [
-            {
-                titulo: 'SAÚDE MENTAL NA UNIVERSIDADE: AÇÕES E INTERVENÇÕES VOLTADAS PARA OS ESTUDANTES',
-                descricao: 'Pesquisas realizadas pelo Fonaprace apontam índices elevados de adoecimento da comunidade estudantil, resultando no debate e no investimento em programas e ações voltadas para a saúde mental do estudante universitário. Somado a isso, em 2020, o Brasil se deparou com a conjuntura imposta pela pandemia da Covid-19, ocasionando impacto negativo na saúde mental. ',
-                autor: 'LUCÉLIA MARIA - HELIANE DE ALMEIDA - KYSSIA MARCELLE - SUSANE VASCONCELOS',
-                ano: '2023',
-                arquivo: 'arquivo/SAÚDE MENTAL NA UNIVERSIDADE - 2023 UFAL.pdf' // Caminho para o seu arquivo PDF
-            },
-            
-             // ADICIONE NOVOS ITENS AQUI
-        ];
-
-        /**
-         * Função que "desenha" os posts na tela, agora com funcionalidade "Ler Mais".
-         */
-        function renderizarPosts(lista, elementoId) {
-            const container = document.getElementById(elementoId);
-            const LIMITE_LINHAS = 4; // Defina o número de linhas antes de mostrar "Ler mais"
-        
-            if (lista.length === 0) {
-                container.innerHTML = '<p>Nenhuma publicação nesta seção ainda.</p>';
-                return;
-            }
-        
-            lista.forEach((item, index) => {
-                const postDiv = document.createElement('div');
-                postDiv.className = 'post';
-        
-                // Cria IDs únicos para cada descrição e botão, usando o índice do item
-                const descId = `desc-${elementoId}-${index}`;
-                const btnId = `btn-${elementoId}-${index}`;
-        
-                let descricaoHtml = '';
-                if (item.descricao) {
-                    // O texto da descrição é colocado dentro de um contêiner
-                    descricaoHtml = `
-                        <div class="description-wrapper">
-                            <p class="post-description" id="${descId}">${item.descricao}</p>
-                        </div>
-                        <button id="${btnId}" class="read-more-btn" style="display: none;">Ler mais</button>
-                    `;
-                }
-        
-                postDiv.innerHTML = `
-                    <a href="${item.arquivo}" class="post-title" download>${item.titulo}</a>
-                    ${descricaoHtml}
-                    <p class="post-meta">
-                       <strong>Autor (a):</strong> ${item.autor}<br>
-                       <strong>Publicação:</strong> ${item.ano}
-                    </p>
-                `;
-                
-                container.appendChild(postDiv);
-        
-                // --- LÓGICA PÓS-RENDERIZAÇÃO ---
-                // Agora que o elemento está na página, podemos medir sua altura
-                if (item.descricao) {
-                    const descricaoElemento = document.getElementById(descId);
-                    const botaoElemento = document.getElementById(btnId);
-        
-                    // Calcula a altura real do texto. A altura de uma linha é ~21px.
-                    // Se a altura total for maior que a altura de X linhas, mostramos o botão.
-                    if (descricaoElemento.scrollHeight > (21 * LIMITE_LINHAS)) {
-                        botaoElemento.style.display = 'block'; // Mostra o botão
-                        descricaoElemento.classList.add('collapsed'); // Encolhe o texto
-        
-                        // Adiciona a função de clique ao botão
-                        botaoElemento.addEventListener('click', () => {
-                            const isCollapsed = descricaoElemento.classList.contains('collapsed');
-                            
-                            if (isCollapsed) {
-                                descricaoElemento.classList.remove('collapsed');
-                                botaoElemento.textContent = 'Ler menos';
-                            } else {
-                                descricaoElemento.classList.add('collapsed');
-                                botaoElemento.textContent = 'Ler mais';
-                            }
-                        });
-                    }
-                }
-            });
-        }        
-        // "Chama" a função para renderizar as duas listas quando a página carregar
-        document.addEventListener('DOMContentLoaded', () => {
-            renderizarPosts(producoesDaLiga, 'producoes-academicas');
-            renderizarPosts(artigosParaEstudo, 'artigos-estudo');
-        });
-
-    </script>
-    </body>
+    <script src="script.js"></script>
+    
+</body>
 </html>
