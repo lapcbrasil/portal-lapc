@@ -1,6 +1,6 @@
 // ==================================================================
 // DADOS DAS NOTÍCIAS
-// (Aqui você adiciona/edita suas notícias)
+// (Aqui você adiciona/edita suas notícias) - TER COMO BASE A REFERÊNCIA ABAIXO, SEMPRE UTILIZANDO A VIRGULA AO FINAL DAS PÁGINAS.
 // ==================================================================
 const noticias = [
     {
