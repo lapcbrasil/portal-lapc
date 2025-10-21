@@ -17,7 +17,8 @@ const noticias = [
 // ==================================================================
 // LÓGICA DO SITE (MENU E MODAL)
 // ==================================================================
-document.addEventListener('DOMContentLoaded', () => {
+
+    document.addEventListener('DOMContentLoaded', () => {
 
     // --- LÓGICA DO MENU LATERAL ---
     const menuBtn = document.getElementById('menu-btn');
@@ -115,6 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             // Se não tiver notícias suficientes, esconde permanentemente o overlay
             newsOverlay.style.display = 'none';
-        }
-    }
-});
+                }
+            }
+        });
